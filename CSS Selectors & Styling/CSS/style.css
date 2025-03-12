@@ -1,0 +1,58 @@
+.login
+{
+    width: 100%;
+    height: auto;
+    margin: auto;   
+}
+
+/* Form styling */
+.login, form 
+{
+   background-color: lightblue;
+   width: 50%;
+   height: auto;
+   margin: auto;
+   margin-top: 5%;
+   border-radius: 5px;  
+}
+
+
+/* Input fields styling */
+.login input[type="text"], input[type="password"]
+{
+    width: 350px;
+    margin: 10px;
+    padding: 15px;
+    border: none;
+    border-radius: 2px;
+    font-size: 16px;
+}
+
+/* Submit button styling */
+.login input[type="submit"]
+{
+    width: 20%;
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    
+}
+
+/* Submit button hover effect */
+#button:hover 
+{
+   background-color: coral;
+   color: black;
+}
+
+/* Basic heading styling */
+.login h1
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 38px;
+} 
