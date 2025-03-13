@@ -1,0 +1,147 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar
+{
+    background-color: rgb(63, 59, 59);
+    padding: 8px;
+    text-align: center;
+    width: 100%;
+    
+}
+.navbar ul li
+{
+    display:inline-block;
+    padding: 10px 35px;
+}
+.navbar a
+{
+    color: white;
+    text-decoration: none;
+    
+}
+.navbar a:hover
+{
+    text-decoration: none;
+    font-size: 18px;
+}
+.btn-1
+{
+    padding: 10px 14px;
+    background: blue;
+    border-radius: 5px;
+    transition: transform 0.1s ease;
+    color: yellow;
+}
+
+.btn-1:hover
+{
+    padding: 10px 14px;
+    background: blue;
+    border-radius: 5px;
+    transition: transform 0.1s ease;
+    color: yellow;
+}
+.btn-2:hover
+{
+    padding: 10px 14px;
+    background: blue;
+    border-radius: 5px;
+    transition: transform 0.1s ease;
+    color: yellow;
+}
+.btn-3:hover
+{
+    
+    padding: 10px 14px;
+    background: blue;
+    border-radius: 5px;
+    transition: transform 0.1s ease;
+    color: yellow;
+}
+.btn-4:hover
+{
+
+    padding: 10px 14px;
+    background: blue;
+    border-radius: 5px;
+    transition: transform 0.1s ease;
+    color: yellow;
+}
+.btn-5:hover
+{
+    padding: 10px 14px;
+    background: blue;
+    border-radius: 5px;
+    transition: transform 0.1s ease;
+    color: yellow;
+}
+
+/* Content */
+.content
+{
+    display: flex;
+    padding: 05px;
+    gap: 10px;
+}
+.column
+{
+    flex: 1;
+    padding: 20px;
+    min-width: 300px;
+    border-radius: 5px;
+}
+.column:first-child 
+{
+    background: #6383bf;
+}
+.column:last-child
+{
+    background: #63bfb0;
+}
+.book
+{
+    width: 40%;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+}
+h3
+{
+    font-size: 22px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
+h2
+{
+    font-size: 25px;
+    color: black;
+    padding: 5px;
+}
+.footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    width: 100%;
+}
+
+ /* Responsive Design */
+ @media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    .navbar {
+        font-size: 1em;
+        padding: 10px;
+    }
+    .column {
+        padding: 15px;
+    }
+ }
