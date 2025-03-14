@@ -1,0 +1,55 @@
+<!-- 
+Q 1. What is CSS Flexbox, and how is it useful for layout design? Explain the terms flex-container and flex-item 
+
+1. What is CSS Flexbox ? 
+
+-> CSS Flexbox (Flexible Box Layout) is a layout model designed to efficiently arrange, align, and distribute space among elements within a container, even when their sizes are unknown or dynamic.
+
+-> It is particularly useful for responsive design, as it allows elements to adjust their size and position based on available space.
+
+
+
+2. How is it useful for layout design ? 
+
+-> It allows effortless alignment of items both horizontally (row) and vertically (column) without complex CSS positioning.
+
+-> It ensures equal or proportional spacing by using properties like justify-content for horizontal alignment and align-items for vertical alignment.
+
+-> Flexbox also enables automatic resizing, where elements adjust based on available space, reducing the need for media queries
+
+
+3. flex-container and flex-item  
+
+1) Flex-container :- A Flex Container is the parent element that holds and controls flex items.
+                  -> It is created using ( display: flex; or display: inline-flex; ).
+                  -> display: flex; - Defines the element as a flex container.
+                  -> flex-direction - Sets the main axis direction (row, column).
+                  -> justify-content - Aligns items horizontally (e.g., center, space-between).
+                  -> align-items - Aligns items vertically (e.g., center, stretch).
+                  -> flex-wrap - Controls whether items should wrap to the next line.
+
+
+2) Flex-item :- Flex Items are the child elements inside a flex container. These items adjust their size, position, and alignment based on the flex properties applied to them.
+
+                 -> flex-grow - Defines how much an item should grow relative to others.
+                 -> flex-shrink - Controls how items shrink when space is limited.
+                 -> flex-basis - Sets the initial size of the flex item.
+                 -> align-self - Aligns an individual item within the flex container.
+ 
+
+Example :- 
+
+.container 
+{
+  display: flex;  
+  justify-content: space-between;  
+  align-items: center; 
+}
+
+.item 
+{
+  flex: 1;  
+}
+
+
+-->
